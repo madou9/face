@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+}
+
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: #ECF0F5;
+
+
+}
+
+.mere{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: #3A5A97;
+    height: 100px;
+                                   
+    
+    
+}
+
+.mere h1{
+    position: relative;
+    top: 20px;
+}
+.fils1{
+    display: flex;
+    position: relative ;
+    left: 5px; top: 10px; 
+}
+
+.fils2{
+    position: relative ;
+    right: 10px;
+}
+
+.la{
+    position: relative;
+    top: 18px; left: 5px;
+}
+
+.red{
+    color: white;
+    background-color: rgb(4, 4, 192);
+}
+
+.contener{
+    display: flex ;
+    justify-content: space-around;
+}
+
+.gauche{
+    position: relative;
+    
+}
+
+.droite{
+    position: relative;
+   
+}
+
+.toff{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 18px;
+    
+}
+
+.g{
+    margin-top: 5px;
+}
+
+.blue{
+    color: blue;
+    margin-top: 20px;
+}
+
+.green{
+	color: white;
+	font-size: 15px;
+	border: 1px solid rgb(99, 138, 41);
+	border-radius: 4px 4px 4px 4px;
+	background: #5D984A;
+	padding: 8px;
+	width: 5cm;
+	position: relative;
+	top: 5%;
+}
+
+@media screen and (max-width: 700px){
+    .contener{
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .mere{
+    width: 100%;
+    }
+
+    header{
+        width:100vw;
+    }
+
+}
